@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi primrer pagina web</title>
+    <style>
+    body{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: black;
+    }
+
+    h1{
+        text-align: center;
+        color: red;
+    }
+
+    p{
+        text-align: center;
+        color:blue;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 id="miTitulo">Cesar Aimar Ortiz Belmares</h1>
+    <p>
+     Esta es mi primer pagina we <br> wenas<br> 
+    </p>
+    
+    <script>
+        document
+        .getElementById("miTitulo")
+        .addEventListener("click", function () {
+            this.style.color = "white"; 
+        })
+    </script>
+</body>
+</html>
